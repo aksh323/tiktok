@@ -121,7 +121,7 @@ class Zefoy:
         options.add_argument('--disable-browser-side-navigation')
         options.add_argument('--disable-gpu')
         options.add_experimental_option("prefs", {"profile.default_content_setting_values.notifications": 1})
-        options.add_argument('headless')
+        #options.add_argument('headless')
         return webdriver.Chrome(service=service,options=options)
     
     def convert(self, minutes: int, seconds: int) -> int:
