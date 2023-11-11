@@ -3,7 +3,7 @@ from re import findall
 from requests import post, get
 from random import choice
 from io import BytesIO
-from enchant import Dict
+# from enchant import Dict
 from base64 import b64decode, b64encode
 from time import sleep
 # from ctypes import windll
